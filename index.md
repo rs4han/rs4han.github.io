@@ -1,9 +1,32 @@
-## Rachel Chan
-
-Welcome to my page.
-
-### Education
-
-My undergraduate degree is Electrical Engineering with a Biomedical Engineering Specialization and a minor in Entrepreneurship and Entreprise Development (a mounthful!) from the University of Calgary in 2018.
-
-### Contact Me
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Rachel Chan</title>
+        <link rel="stylesheet" type="text/css" href="/css/main.css">
+	</head>
+	<body>
+		<nav>
+    		<ul>
+        		<li><a href="/">Home</a></li>
+        		<li><a href="/cv">CV</a></li>
+	        	<li><a href="/about">About</a></li>
+    		</ul>
+		</nav>
+		<div class="container">
+    		<div class="blurb">
+        		<h1>Welcome!</h1>
+				<p>My name is Rachel and I built this website for you to get to know me professionally (and a little bit more personally), and for me to play around with websites. </p>
+            </div><!-- /.blurb -->
+            <div class="blurb">
+                <h2>Summary</h2>
+                <p>Currently, I work at Deloitte in what can be referred to as techno-functional roles. It's similar to project management where I do lots of user requirement gathering, user story creation and management (working closely with developers), data aggregation, strategy, PMO risk analysis, quality assurance testing. Basically, ensuring that the business and technical sides communicate and understand each other for successful project launches and deliveries!             
+                I have had the opportunity to work across industries from finances to food distribution, to health & life sciences. My interest remains in the latter, where I focus on how health & life science products can interact with best with patients.<a href="/cv">If you're interested in further details, they can be found in my CV!</a></p>
+		</div><!-- /.container -->
+		<footer>
+    		<ul>
+        		<li><a href="mailto:rchl.chan@gmail.com">email</a></li>
+        		<li><a href="https://www.linkedin.com/in/rchlchan/">linkedIn</a></li>
+			</ul>
+		</footer>
+	</body>
+</html>
