@@ -7,10 +7,12 @@ nav ul, footer ul {
     padding: 0px;
     list-style: none;
     font-weight: bold;
+    text-align: right;
 }
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
+    text-align: right
 }
 a {
     text-decoration: none;
@@ -31,6 +33,7 @@ p {
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
+    text-align: right;
 }
 
 ul.posts { 
@@ -41,3 +44,4 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
