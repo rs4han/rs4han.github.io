@@ -1,41 +1,93 @@
 body {
-    margin: 60px auto;
+    margin: 30px auto;
     width: 70%;
     font-family: 'Tahoma','Geneva','sans-serif';
 }
+
+.titlename{
+    float: left;
+    margin-right: 2em;
+    font-family: 'Tahoma', 'Geneva', 'sans-serif';
+    font-size :3em;
+    font-weight: bold;
+    text-align: left;
+    color: #5AA2AE;
+    border-bottom: #5aa1ae6e;
+}
+
 nav ul, footer ul {
    /*  font-family:'Helvetica', 'Arial', 'Sans-Serif';*/
-    font-family:'Tahoma', 'Geneva', 'sans-serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-    text-align: right;
+   float:right;
+   font-family:'Tahoma', 'Geneva', 'sans-serif';
+   padding: 0px;
+   list-style: none;
+   font-weight: bold;
+   text-align: right;
+   margin-block-end: 0;
+   bottom:0;
+   right:0;
 }
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
-    text-align: right
+    text-align: right;
 }
 a {
     text-decoration: none;
     color: #999;
 }
 a:hover {
-    text-decoration: underline;
+    color: #5AA2AE;
 }
 h1 {
-    font-size: 1em;
-  /*  font-family:'Helvetica', 'Arial', 'Sans-Serif';*/
     font-family:'Tahoma', 'Geneva', 'sans-serif';
     line-height: 1;
+    margin-block-end: 1em;
 }
+
+h2, h3 {
+    margin-block-start: 0;
+    margin-block-end: 0.3em;
+}
+
+h4 {
+font-weight: normal;
+    margin-block-start: 0;
+    margin-block-end: 0.3em;
+}
+
 p {
     font-size: 1em;
     line-height: 1.5;
     color: #333;
     font-family:'Tahoma', 'Geneva', 'sans-serif';
 }
+
+article{
+    display:block;
+    float: left;
+    padding: 2em 0em 0em 0em; /*top right bottom left*/
+}
+
+.myphoto{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.img_sub{
+    font-style: italic;
+    font-size: .8em;
+    line-height: 1;
+    font-weight: normal;
+    text-align: left;
+    color: rgb(60, 59, 65);
+/*    padding: 0em 0.5em 0.5em 0.5em; top right bottom left*/
+}
+
 footer {
+    clear: both;
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
     text-align: right;
@@ -53,4 +105,3 @@ ul.posts li {
     font-size: 1em;
     font-family:'Tahoma', 'Geneva', 'sans-serif';
 }
-
