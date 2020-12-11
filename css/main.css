@@ -74,8 +74,8 @@ p {
 }
 
 article{
-    display:block;
-    float: left;
+    display:inline-block;
+    width: auto;
     padding: 2em 0em 0em 0em; /*top right bottom left*/
 }
 
@@ -102,6 +102,7 @@ footer {
     font-size: .8em;
     text-align: right;
     font-family:'Tahoma', 'Geneva', 'sans-serif';
+    padding-bottom: 1em;
 }
 
 
