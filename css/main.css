@@ -50,6 +50,7 @@ h1 {
 }
 
 h2 {
+    padding-bottom: 0.5em;
     margin-block-start: 0;
     margin-block-end: 0.3em;
     color: #5AA2AE;
@@ -57,20 +58,26 @@ h2 {
 
 h3 {
     margin-block-start: 0;
-    margin-block-end: 0.3em;
+
 }
 
 h4 {
 font-weight: normal;
     margin-block-start: 0;
     margin-block-end: 0.3em;
+    padding-bottom: 0.5em;
 }
 
 p {
     font-size: 1em;
     line-height: 1.5;
+    margin-top: -0.5em;
     color: #333;
     font-family:'Tahoma', 'Geneva', 'sans-serif';
+}
+
+ul {
+    margin-block-start: 0.3em;
 }
 
 article{
@@ -92,19 +99,10 @@ article{
     line-height: 1;
     font-weight: normal;
     text-align: left;
+    padding-top: 1em;
     color: rgb(60, 59, 65);
 /*    padding: 0em 0.5em 0.5em 0.5em; top right bottom left*/
 }
-
-footer {
-    clear: both;
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
-    text-align: right;
-    font-family:'Tahoma', 'Geneva', 'sans-serif';
-    padding-bottom: 1em;
-}
-
 
 ul.posts { 
     /*margin: 20px auto 40px; */
@@ -116,4 +114,23 @@ ul.posts li {
     list-style: none;
     font-size: 1em;
     font-family:'Tahoma', 'Geneva', 'sans-serif';
+}
+
+#display_trivia {
+    display: block;
+    color: transparent;
+  }
+  
+  #display_trivia:target {
+    display: block;
+    color: inherit;
+  }
+
+footer {
+    clear: both;
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+    text-align: right;
+    font-family:'Tahoma', 'Geneva', 'sans-serif';
+    padding-bottom: 1em;
 }
