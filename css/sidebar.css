@@ -61,6 +61,8 @@ margin-block: 0;
     .sidenav {display:none; width: 0;}
     .sidebar_article {padding: 0;}
     nav {display: none;}
-    p,ul, li {page-break-inside: avoid;}
-    h1,h2, h3 {page-break-after: avoid;}
+    body {margin: 0px auto; width: 80%;}
+    p, ul, li {page-break-inside: avoid;}
+    h1, h2, h3 {page-break-after: avoid;}
+    
   }
